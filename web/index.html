@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VideoKit PoC — render di browser</title>
+  <style>
+    :root { --bg: #f4f7f7; --fg: #102020; --primary: #006666; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #121414; --fg: #e6eeee; --primary: #4fb8b8; } }
+    body { margin: 0; padding: 16px; font: 15px/1.5 system-ui, sans-serif; background: var(--bg); color: var(--fg); }
+    button { background: var(--primary); color: #fff; border: 0; padding: 10px 16px; border-radius: 6px; font-size: 15px; }
+    pre { white-space: pre-wrap; font-size: 13px; }
+    a { color: var(--primary); }
+  </style>
+</head>
+<body>
+  <h1>VideoKit PoC — render di browser</h1>
+  <p>Render <code>project.json</code> + <code>sample.srt</code> menjadi MP4 1080×1920 di perangkat ini (WebCodecs + JASSUB).
+     Biarkan tab terbuka sampai selesai. Hasil &amp; laporan otomatis dikirim ke folder <code>out/</code>.</p>
+  <button id="start">Mulai render</button>
+  <a id="download" hidden>Unduh hasil (browser.mp4)</a>
+  <pre id="log"></pre>
+  <script type="module" src="/web/dist/app.js"></script>
+</body>
+</html>
