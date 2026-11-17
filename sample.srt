@@ -1,0 +1,49 @@
+1
+00:00:00,500 --> 00:00:03,000
+Belanja jadi lebih mudah
+Shopping made easier
+
+2
+00:00:03,000 --> 00:00:06,000
+Pilih produk favoritmu dalam hitungan detik saja
+Pick your favourite product in seconds
+
+3
+00:00:06,000 --> 00:00:09,000
+Gratis ongkir ke seluruh Jawa
+Free shipping across Java
+
+4
+00:00:09,000 --> 00:00:12,000
+Bayar aman, bisa cicilan
+Secure payment, instalments available
+
+5
+00:00:12,000 --> 00:00:15,000
+Lacak paketmu secara langsung
+Track your parcel live
+
+6
+00:00:15,000 --> 00:00:18,000
+Kualitas terjamin, garansi uang kembali
+Guaranteed quality, money-back guarantee
+
+7
+00:00:18,000 --> 00:00:21,000
+Ribuan pelanggan puas setiap hari
+Thousands of happy customers every day
+
+8
+00:00:21,000 --> 00:00:24,000
+Promo spesial akhir pekan
+Special weekend deals
+
+9
+00:00:24,000 --> 00:00:27,000
+Kafé, crème brûlée & piñata — diakritik aman
+Café, crème brûlée & piñata — diacritics safe
+
+10
+00:00:27,000 --> 00:00:29,500
+Mulai sekarang di Bagdja
+Start now on Bagdja
