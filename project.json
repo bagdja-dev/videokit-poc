@@ -1,0 +1,38 @@
+{
+  "output": { "width": 1080, "height": 1920, "fps": 30, "duration_ms": 30000, "background_color": "#000000" },
+  "design": {
+    "anchor": "bottom",
+    "margin_v": 260,
+    "margin_h": 80,
+    "slots": [
+      { "font": "Poppins", "bold": true, "italic": false, "size": 72, "color": "#FFFFFF",
+        "outline_color": "#000000", "outline": 4, "shadow": 2 },
+      { "font": "Poppins", "bold": false, "italic": true, "size": 48, "color": "#FFE066",
+        "outline_color": "#000000", "outline": 3, "shadow": 1 }
+    ]
+  },
+  "visuals": [
+    { "input": "clip_land", "start_ms": 0, "end_ms": 6000, "source_in_ms": 500, "fit": "blur", "underflow": "freeze" },
+    { "input": "clip_port", "start_ms": 6000, "end_ms": 12000, "source_in_ms": 0, "fit": "cover", "underflow": "freeze" },
+    { "input": "image", "start_ms": 12000, "end_ms": 18000, "fit": "contain" },
+    { "input": "clip_short", "start_ms": 18000, "end_ms": 24000, "source_in_ms": 0, "fit": "cover", "underflow": "freeze" },
+    { "input": "clip_hevc", "start_ms": 24000, "end_ms": 29500, "source_in_ms": 0, "fit": "cover", "underflow": "freeze" },
+    { "color": "#101820", "start_ms": 29500, "end_ms": 30000 }
+  ],
+  "audio": [
+    { "input": "bgm", "role": "background", "start_ms": 0, "loop": true, "volume": 0.8,
+      "fade_in_ms": 500, "fade_out_ms": 1500, "ducking": { "level": 0.25, "attack_ms": 200, "release_ms": 400 } },
+    { "input": "vo1", "role": "voice", "start_ms": 2000, "end_ms": 4000, "volume": 1.0 },
+    { "input": "vo2", "role": "voice", "start_ms": 13000, "end_ms": 15000, "volume": 1.0 }
+  ],
+  "inputs": {
+    "clip_land": { "path": "assets/clip_land.mp4", "kind": "video" },
+    "clip_port": { "path": "assets/clip_port.mp4", "kind": "video" },
+    "clip_short": { "path": "assets/clip_short.mp4", "kind": "video" },
+    "clip_hevc": { "path": "assets/clip_hevc.mp4", "kind": "video" },
+    "image": { "path": "assets/image.png", "kind": "image" },
+    "bgm": { "path": "assets/bgm.m4a", "kind": "audio" },
+    "vo1": { "path": "assets/vo1.m4a", "kind": "audio" },
+    "vo2": { "path": "assets/vo2.m4a", "kind": "audio" }
+  }
+}
